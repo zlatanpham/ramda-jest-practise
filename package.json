@@ -1,0 +1,29 @@
+{
+  "name": "ramda-jest-practise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "mockup": "node data-generator",
+    "test": "jest --env=node",
+    "test-full": "jest --env=node  --coverage"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
