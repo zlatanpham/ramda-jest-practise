@@ -1,0 +1,7 @@
+flow-typed/
+img/
+node_modules/
+semantic/
+archive/
+.next/
+dist/

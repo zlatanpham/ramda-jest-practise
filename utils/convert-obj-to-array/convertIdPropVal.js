@@ -1,8 +1,8 @@
-const R = require("ramda");
+const R = require('ramda')
 
 const convertIdPropVal = R.pipe(
-  R.toPairs,
-  R.map(R.zipObj(["id", "count"]))
-);
+    R.toPairs,
+    R.map(R.zipObj(['id', 'count']))
+)
 
-module.exports = convertIdPropVal;
+module.exports = convertIdPropVal
